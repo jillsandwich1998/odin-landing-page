@@ -118,6 +118,49 @@ body {
   padding: 0;
 }
 
+.middle-sec-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.middle-header{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 30px;
+}
+
+.bunch-of-illustrations{
+  display: flex;
+  gap: 40px;
+}
+
+.illustration {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 0 1 auto;
+  max-width: 150px;
+  flex-wrap: wrap;
+}
+
+.illustration p {
+  display: flex;
+  flex: 0 0 auto;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: center;
+}
+
+.illustration img{
+  display: flex;
+  flex: 0 0 auto;
+  height: 150px;
+  width: 150px;
+  border: solid rgb(59, 130, 246);
+  border-radius: 20px;
+
+}
+
 .footer {
   display: flex;
   flex: 1 1 auto;
