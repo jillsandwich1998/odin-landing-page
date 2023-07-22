@@ -122,6 +122,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .middle-header{
@@ -161,7 +162,35 @@ body {
 
 }
 
+.middle-sec-2{
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: space-around;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  background-color: #E5E7EB;
+}
+
+.middle-sec-2 .quote {
+  display: flex;
+  flex: 1 1 auto;
+  font-size: 26px;
+  flex-wrap: wrap;
+  font-weight: 50;
+  max-width: 500px;
+  padding: 10px;
+}
+
+.middle-sec-2 .author-info {
+  display: flex;
+  justify-content: right;
+  font-weight: 900;
+  padding: 5px;
+}
+
 .footer {
   display: flex;
   flex: 1 1 auto;
+  justify-content: center;
 }
